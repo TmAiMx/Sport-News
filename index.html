@@ -1,0 +1,21 @@
+<!DOCTYPE html><html lang="fa">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sport News</title>
+<link rel="stylesheet" href="style.css">
+</head><body><header class="top-title">
+<h1>⚽ Sport News</h1>
+</header><!-- News Feed --><div class="news-scroll" id="posts"></div><!-- Advertisement --><div class="ads-box" id="adsBox">
+<a id="adsLink" target="_blank">
+<img id="adsImage">
+<p id="adsText"></p>
+</a>
+</div><!-- Admin Panel --><div class="admin-box"><h3>🧠 نشر خبر</h3><input id="title" placeholder="عنوان">
+<textarea id="short" placeholder="متن کوتاه"></textarea>
+<input id="image" placeholder="لینک عکس"><button onclick="publishPost()">نشر</button>
+
+<h3>🗑 حذف خبر</h3>
+<input id="deleteIndex" placeholder="شماره خبر">
+<button onclick="deletePost()">حذف</button></div><script src="script.js"></script></body>
+</html>
